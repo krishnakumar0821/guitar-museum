@@ -1,0 +1,10 @@
+/* This css code can help you to fix your footer down the bottom and center */
+
+div {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    border: 5px dotted lightblue;
+   }

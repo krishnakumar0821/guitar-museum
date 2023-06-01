@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Gothic', sans-serif;
+    background-image: url(/img/pexels-josh-sorenson-154130.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    float: right;
+    overflow: hidden;
+    position: sticky;
+    margin: 8px;
+    padding-top: 10px; 
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;    
+    display: block;
+}
+#nav a{
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: rgb(111, 205, 218);
+    color: black;
+}
+
+#nav h2{
+    float: left;
+    color: aliceblue;
+}
+#nav h2:hover{
+    color:rgb(78, 78, 243);
+    font-style: italic;
+}
+img{
+    padding:8px;
+    float: left;
+}
+#main-heading{
+    width: 100%;
+    /* background-color: brown; */
+    float: right;
+}
+#sub-heading{
+    /* background-color: rgb(42, 75, 165); */
+    width:40%;
+    height: auto;
+    float: right;
+    position: absolute;
+    /* margin-bottom: 100px;
+    margin-top: 100px; */
+    /* padding-top: 200px; */
+}
+#main-heading h1{
+    width: auto;
+    color: aliceblue;
+    /* background-color: rgb(42, 75, 165); */
+    margin: 20px;
+    /* padding: 100px; */
+    /* padding-right: 120px; */
+    /* padding-bottom: 120px; */
+    float:inline-start
+} 
+
+
+
+/* #sub-heading h1{
+    height: 200px;
+    width: 20%;
+    color: aliceblue;
+    background-color: rgb(42, 75, 165);
+    text-align: right;
+    margin-left: 250px;
+    float: right;
+} */
+#sub-heading h3{
+    color: white;
+    float: right;
+    padding-right: 145px;
+    padding-bottom: 120px;
+}
+.button {
+    float: left;
+    position: absolute;
+    background-color: #2737cc;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 15px;
+    width: 130px;
+    text-align: center;
+    /* transition-duration: 0.4s; */
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 16px;
+}
+.button:hover{
+    background-color: #FFFFFF;
+    color: #2737cc;
+}
+/* .button:after {
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    opacity: 0;
+    transition: all 0.8s
+} */
+
+/* .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+} */
